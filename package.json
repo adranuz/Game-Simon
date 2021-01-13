@@ -1,0 +1,41 @@
+{
+  "name": "gamesimon",
+  "version": "1.0.0",
+  "description": "A game that you follow the sequence until you loose",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adranuz/Game-Simon.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "webpack",
+    "react"
+  ],
+  "author": "Adranuz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adranuz/Game-Simon/issues"
+  },
+  "homepage": "https://github.com/adranuz/Game-Simon#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
